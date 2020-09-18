@@ -19,7 +19,7 @@ p, ul {
     margin-left: 24px;
 }
 
-code {
+code, pre {
     background: #eee;
     padding: 2px 5px 2px 5px;
     border-radius: 4px;
@@ -35,4 +35,8 @@ code {
 .social a > img {
     width: auto;
     height: 40px;
+}
+
+pre > code {
+    padding: 0
 }
