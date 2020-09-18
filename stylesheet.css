@@ -11,12 +11,8 @@ h1 {
     text-align: center;
 }
 
-h1 ~ p {
+h1 + p {
     text-align: center;
-}
-
-p, ul {
-    margin-left: 24px;
 }
 
 code, pre {
